@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "tldName": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "downloadMethod": {
+      "enum": ["http","sftp"]
+    },
+    "lastUpdate": {
+      "type" :"datetime"
+    }
+  }
+}

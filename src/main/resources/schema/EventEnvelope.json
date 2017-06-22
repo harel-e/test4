@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+
+    "eventType":{
+      "type": "string"
+    },
+
+    "eventTime":{
+      "type": "string"
+    },
+
+    "eventId": {
+      "type": "string"
+    },
+
+    "eventSource": {
+      "type": "string"
+    },
+
+    "payload":{
+      "type":"any"
+    }
+
+  }
+}
